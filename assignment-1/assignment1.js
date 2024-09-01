@@ -108,3 +108,17 @@ function calculator(a, b, op) {
     }
 }
 console.log(calculator(2, 4, "-"));
+
+
+
+// QNo.10
+for (let i = 1; i <= 100; i++) {
+    let output = "";
+    if (i % 3 === 0) {
+        output += "Fizz";
+    } if (i % 5 === 0) {
+        output += "BUZZ";
+    } {
+        console.log(output, i)
+    }
+}
